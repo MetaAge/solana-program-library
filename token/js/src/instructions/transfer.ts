@@ -10,7 +10,7 @@ import {
 } from '../errors';
 import { addSigners } from './internal';
 import { TokenInstruction } from './types';
-
+import { Buffer } from "buffer";
 /** TODO: docs */
 export interface TransferInstructionData {
     instruction: TokenInstruction.Transfer;
